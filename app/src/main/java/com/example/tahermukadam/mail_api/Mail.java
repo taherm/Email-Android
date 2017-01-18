@@ -1,4 +1,4 @@
-package com.example.tahermukadam.mail_api;
+﻿package com.example.tahermukadam.mail_api;
 
 import java.util.Date;
 import java.util.Properties;
@@ -46,8 +46,8 @@ public class Mail extends javax.mail.Authenticator {
         _port = "465"; // default smtp port
         _sport = "465"; // default socketfactory port
 
-        //_user = "mukadam.taher@gmail.com"; // username
-        //_pass = "5aqamoula3"; // password
+        //_user = ""; // username
+        //_pass = ""; // password
         _from = "mukadam.taher@gmail.com"; // email sent from
         _subject = "heyaa"; // email subject
         _body = "hellooooo"; // email body
